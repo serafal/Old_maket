@@ -1,0 +1,295 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+} 
+
+ .container {
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+
+header .container {
+    background-image: url(./data/img/hero\ image.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.header-line {
+    display: flex;
+    padding: 66px;
+    align-items: center;
+}
+
+nav {
+    border-bottom: 11px;
+    margin-left: 25%;
+}
+
+nav a {
+    color: #E5E5E5;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 25px;
+    padding: 22px 0px;
+}
+
+
+.header-logo {
+
+    height: 66px;
+    margin-left: 7%;
+}
+
+.cart {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+
+}
+
+.header-line .phone {
+    margin-bottom: 5px;
+    margin-left: 45px;
+    font-size: 20px;
+    max-width: 250px;
+}
+
+.header-line .phone a {
+    display: flex;
+    text-decoration: none;
+    color: #E5E5E5;
+    font-weight: bold;
+    align-items: center;
+}   
+.header-line .phone img {
+    size: 25px;
+    margin-right: 10px;
+}
+
+.header-line .phone p {
+    color: #E5E5E5;
+    margin: 0px; 
+}
+
+.bright-orange-button {
+  width: 200px;
+  height: 56px;
+  background-color: #FF7400;
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  
+  animation-name: bright-orange-button-Animation;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+}
+
+.bright-orange-button:hover {
+    width: 200px;
+    height: 56px;
+    background-color: #ffbb00;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+  }
+
+  .bright-orange-button:active {
+    width: 200px;
+    height: 56px;
+    background-color: #b64d10;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;  
+  }
+
+
+.signboard {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 10% 18% 0% 18%;
+    width: 30%;
+    align-items: center;
+}
+
+.signboard h1{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-weight: lighter;
+    font-size: 80px;
+    margin: 0 1.5%;   
+}
+
+.signboard p{
+    color: #D67E35;
+    font-family: 'Tinos', serif; 
+    font-weight: lighter;
+    font-size: 50px; 
+    margin: 0 3%;     
+}
+
+.signboard h2{
+    color: #E5E5E5; 
+    font-weight: lighter;   
+}
+
+.best-food-home {
+    display: flex;
+    align-items: center;
+}
+.best-food-home h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.intro-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-column-gap: 100px;
+    justify-items: center;
+}
+
+.intro {
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 60px 30px rgba(0, 0, 0, .05);
+    width: 300px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.intro img {
+    margin-top: 50px;
+}
+
+.intro h3 {
+    color: #2C2C2C;
+    font-family: 'Tinos', serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.intro span {
+    color: #BC9060;
+}
+
+.intro p {
+    color: #656363;
+    font-family: 'Tinos', serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 3%;
+}
+
+.our-story { 
+    display: grid;
+    justify-items: center;
+    padding: 400px 50px 100px 350px;
+    text-align: center;
+    align-content: center;
+}
+
+.our-story p {
+    color: #656363;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.our-story h2 {
+    color: #000000;
+    font-family: 'Tinos', serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin: 0;
+    height: 50px;
+}
+
+.our-story span {
+    color: #D67E34;
+}
+
+.food-count {
+ display: flex;
+ margin-top: 20px;
+}
+
+.food-count p {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.food-count span {
+    color: #BC9060;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.container-our-story {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imgs-collage {
+    padding-top: 300px;
+}
+
+.p-d-orange {
+    color:#D67E34;
+}
+
+.p-white {
+    color:#E5E5E5;
+}
+
+.celebrate {
+    background-image: url(./data/img/bg.png);
+    height: 450px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.celebrate .celebrate-block {
+    display: grid;
+    grid-template-columns: 630px 30%;
+    padding-left: 15%;
+    padding-top: 100px;
+    column-gap: 20%;
+    row-gap: 20px;
+}
+
+.celebrate .p-d-orange {
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: normal;
+}
+
+.celebrate .p-white {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.celebrate p {
+    margin: 0;
+    line-height: 60px;
+}
+
+.celebrate .celebrate-block button{
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
